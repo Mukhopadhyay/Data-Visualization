@@ -6,7 +6,7 @@ directories = [
     ('Histogram', {
         'mpl': 'Matplotlib',
         'sns': 'Seaborn',
-        'gg': 'Plotnine',
+        'gg': 'Plotnine (ggplot)',
         'px': 'Plotly'
     })
 ]
@@ -21,16 +21,17 @@ if __name__ == '__main__':
 
         # Breaking down the images into subsections
         for ext, name in mapping.items():
+
             ims = [x for x in images if x.startswith(ext)]
-            strings.append(f'## {name}')
+            strings.append(f'## {name}\nPlots created using the package `{name}`\n')
 
             for i in range(0, len(ims), 2):
                 try:
                     im1, im2 = ims[i], ims[i+1]
-                    string = f'<img src="../gallery/Histogram/{im1}" width="45%"> <img src="../gallery/Histogram/{im2}" width="45%">'
+                    string = f'<img src="../gallery/Histogram/{im1}" width="45%" height="300px"> <img src="../gallery/Histogram/{im2}" width="45%" height="300px">'
                 except IndexError:
                     im1 = ims[i]
-                    string = f'<img src="../gallery/Histogram/{im1}" width="45%">'
+                    string = f'<img src="../gallery/Histogram/{im1}" width="45%" height="300px">'
                 finally:
                     strings.append(string+'\n')
 
