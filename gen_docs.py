@@ -1,14 +1,18 @@
 import os
 
+# Extension and their mapping
+ext_mapping = {
+    'mpl': 'Matplotlib',
+    'sns': 'Seaborn',
+    'gg': 'Plotnine (ggplot)',
+    'px': 'Plotly'
+}
+
 # Keep the directory and used framework mapping here
 # Later down the road, this would be moved to some other file
 directories = [
-    ('Histogram', {
-        'mpl': 'Matplotlib',
-        'sns': 'Seaborn',
-        'gg': 'Plotnine (ggplot)',
-        'px': 'Plotly'
-    })
+    ('Histogram', ext_mapping),
+    ('Piechart', ext_mapping)
 ]
 
 
@@ -28,10 +32,10 @@ if __name__ == '__main__':
             for i in range(0, len(ims), 2):
                 try:
                     im1, im2 = ims[i], ims[i+1]
-                    string = f'<img src="../gallery/Histogram/{im1}" width="45%" height="300px"> <img src="../gallery/Histogram/{im2}" width="45%" height="300px">'
+                    string = f'<img src="../gallery/{dir}/{im1}" width="45%" height="300px"> <img src="../gallery/{dir}/{im2}" width="45%" height="300px">'
                 except IndexError:
                     im1 = ims[i]
-                    string = f'<img src="../gallery/Histogram/{im1}" width="45%" height="300px">'
+                    string = f'<img src="../gallery/{dir}/{im1}" width="45%" height="300px">'
                 finally:
                     strings.append(string+'\n')
 
