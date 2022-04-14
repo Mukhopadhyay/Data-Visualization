@@ -19,9 +19,15 @@ Plots created using the package `Seaborn`
 
 <img src="../gallery/Histogram/sns-Histogram-1.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-8.png" width="45%" height="300px">
 
+<img src="../gallery/Histogram/sns-Histogram-10.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-9.png" width="45%" height="300px">
+
 <img src="../gallery/Histogram/sns-Histogram-2.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-4.png" width="45%" height="300px">
 
-<img src="../gallery/Histogram/sns-Histogram-5.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-6.png" width="45%" height="300px">
+<img src="../gallery/Histogram/sns-Histogram-12.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-13.png" width="45%" height="300px">
+
+<img src="../gallery/Histogram/sns-Histogram-11.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-5.png" width="45%" height="300px">
+
+<img src="../gallery/Histogram/sns-Histogram-6.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-14.png" width="45%" height="300px">
 
 <img src="../gallery/Histogram/sns-Histogram-7.png" width="45%" height="300px"> <img src="../gallery/Histogram/sns-Histogram-3.png" width="45%" height="300px">
 
