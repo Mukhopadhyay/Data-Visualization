@@ -2,7 +2,7 @@
 ## Matplotlib
 Plots created using the package `Matplotlib`
 
-<img src="../gallery/Piechart/mpl-Piechart-2.png" width="45%" height="300px"> <img src="../gallery/Piechart/mpl-Piechart-1.png" width="45%" height="300px">
+<img src="../gallery/Piechart/mpl-Piechart-1.png" width="45%" height="300px"> <img src="../gallery/Piechart/mpl-Piechart-2.png" width="45%" height="300px">
 
 <img src="../gallery/Piechart/mpl-Piechart-3.png" width="45%" height="300px">
 
