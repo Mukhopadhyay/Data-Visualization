@@ -43,6 +43,16 @@ Plots created using the package `Plotnine (ggplot)`
 ## Plotly
 Plots created using the package `Plotly`
 
-<img src="../gallery/Histogram/px-Histogram-1.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-2.png" width="45%" height="300px">
+<img src="../gallery/Histogram/px-Histogram-1.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-10.png" width="45%" height="300px">
 
-<img src="../gallery/Histogram/px-Histogram-3.png" width="45%" height="300px">
+<img src="../gallery/Histogram/px-Histogram-11.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-12.png" width="45%" height="300px">
+
+<img src="../gallery/Histogram/px-Histogram-13.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-14.png" width="45%" height="300px">
+
+<img src="../gallery/Histogram/px-Histogram-2.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-3.png" width="45%" height="300px">
+
+<img src="../gallery/Histogram/px-Histogram-4.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-5.png" width="45%" height="300px">
+
+<img src="../gallery/Histogram/px-Histogram-6.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-7.png" width="45%" height="300px">
+
+<img src="../gallery/Histogram/px-Histogram-8.png" width="45%" height="300px"> <img src="../gallery/Histogram/px-Histogram-9.png" width="45%" height="300px">
