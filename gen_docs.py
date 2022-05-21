@@ -12,7 +12,8 @@ ext_mapping = {
 # Later down the road, this would be moved to some other file
 directories = [
     ('Histogram', ext_mapping),
-    ('Piechart', ext_mapping)
+    ('Piechart', ext_mapping),
+    ('Heatmap', ext_mapping)
 ]
 
 
