@@ -8,6 +8,7 @@
 
 </div>
 
-
 ## Index
+* [Heatmaps](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Heatmap)
 * [Histograms](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Histogram)
+* [Piecharts](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Piechart)
