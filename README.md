@@ -22,3 +22,4 @@ Well, generally I put visualizations from documentations of popular libraries an
 * [Heatmaps](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Heatmap)
 * [Histograms](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Histogram)
 * [Piecharts](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Piechart)
+* [Scatterplots](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Scatterplot)
