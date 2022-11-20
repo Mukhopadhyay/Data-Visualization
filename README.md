@@ -23,3 +23,9 @@ Well, generally I put visualizations from documentations of popular libraries an
 * [Histograms](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Histogram)
 * [Piecharts](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Piechart)
 * [Scatterplots](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Scatterplot)
+* [Treemap](https://github.com/Mukhopadhyay/Data-Visualization/tree/master/Treemap)
+
+
+## Contributors
+* [**@SuchandraDatta** (Suchandra Dutta)](https://github.com/SuchandraDatta)
+* [**@Mukhopadhyay** (Pranesh Mukhopadhyay)](https://github.com/Mukhopadhyays)
