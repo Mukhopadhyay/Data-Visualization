@@ -14,7 +14,8 @@ directories = [
     ('Histogram', ext_mapping),
     ('Piechart', ext_mapping),
     ('Heatmap', ext_mapping),
-    ('Scatterplot', ext_mapping)
+    ('Scatterplot', ext_mapping),
+    ('Treemap', ext_mapping)
 ]
 
 
