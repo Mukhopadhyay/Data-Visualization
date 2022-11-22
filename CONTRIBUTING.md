@@ -9,7 +9,20 @@ Contributions are welcome, and they are greatly appreciated! Every bit helps, an
 
 ## Contributing code
 
-If you're to work on a 
+If you want to add a new category of plots, which is missing in the `visualizations` directory, all you'd have to do is create a new folder with the name of the plot, e.g., **visualiazations/Piechart**
+
+Afterwards add your notebook inside the directory with the following naming conventions,
+
+`{Type_Of_Chart}s.ipynb`
+
+For example, for **visualizations/Piechart** it would simply be `Piecharts.ipynb`. The first cell of your notebook should be the following code block
+
+```python
+import sys; sys.path.append('../../utils')
+import utils
+
+# Your dependencies goes here
+```
 
 ## Report errors / deprecated info in project
 
