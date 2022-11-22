@@ -9,6 +9,8 @@ Contributions are welcome, and they are greatly appreciated! Every bit helps, an
 
 ## Contributing code
 
+If you're to work on a 
+
 ## Report errors / deprecated info in project
 
 # Write Documentation
