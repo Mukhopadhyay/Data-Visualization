@@ -9,6 +9,8 @@ Contributions are welcome, and they are greatly appreciated! Every bit helps, an
 
 ## Contributing code
 
+### Contributing new category of plots
+
 If you want to add a new category of plots, which is missing in the `visualizations` directory, all you'd have to do is create a new folder with the name of the plot, e.g., **visualiazations/Piechart**
 
 Afterwards add your notebook inside the directory with the following naming conventions,
@@ -23,6 +25,17 @@ import utils
 
 # Your dependencies goes here
 ```
+
+### Contributing plots to new existing notebooks
+
+If you're to contribute in an already existing notebook, please following the mentioned format.
+
+* Add what's essentially the `h2` tag equivalent in markdown, i.e., `##` followed by a simple title to your plot
+* The following code block will contain a your code that will output in the notebook.
+* The last step is to add the code that will save the your image in the `gallery` directory
+
+![contribution-format](./docs/images/contribution-format.png)
+Fig: Header tag (`##`) before your codeblock
 
 ## Report errors / deprecated info in project
 
