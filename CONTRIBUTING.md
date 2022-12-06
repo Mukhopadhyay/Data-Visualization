@@ -37,6 +37,7 @@ If you're to contribute in an already existing notebook, please following the me
 * The last step is to add the code that will save the your image in the `gallery` directory
 
 ![contribution-format](./docs/images/contribution-format.png)
+
 _Fig: Header tag (`##`) before your codeblock_
 
 ## Report errors / deprecated info in project
