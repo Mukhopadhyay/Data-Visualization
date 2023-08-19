@@ -1,8 +1,8 @@
 site_name: Data Visualization
 
 nav:
-    - Home: index.md
-    - Contributing: CONTRIBUTING.md
+  - Home: index.md
+  - Contributing: CONTRIBUTING.md
 
 markdown_extensions:
   - pymdownx.superfences
@@ -20,35 +20,38 @@ markdown_extensions:
 
 theme:
   name: material
+  custom_dir: overrides
 
-  # features:
-  #   - navigation.tabs
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - search.share
 
   palette:
-
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
-      accent: light blue
+      primary: amber
+      accent: lime
       toggle:
-        # icon: material/lightbulb
         icon: material/brightness-4
         name: Switch to dark mode
 
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: light blue
+      primary: amber
+      accent: lime
       toggle:
-        # icon: material/lightbulb-outline
         icon: material/brightness-7
         name: Switch to light mode
 
 plugins:
   - termynal
   - search
+  - tags:
+      tags_file: tags.md
   - git-authors:
       show_contribution: true
       show_line_count: true
@@ -58,5 +61,23 @@ plugins:
       sort_authors_by: name
       authorship_threshold_percent: 10
       exclude:
-          - index.md
+        - index.md
       enabled: true
+
+extra:
+  analytics:
+    provider: google
+    property: G-XXXXXXX
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Mukhopadhyay
+      name: Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/praneshmukhopadhyay/
+      name: Linkedin
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/allthingstensor
+      name: Twitter / X
+
+copyright: Copyright &copy; 2020 - 2023 Pranesh Mukhopadhyay

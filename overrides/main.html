@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block extrahead %}
+<link rel="stylesheet" />
+{% endblock %} {% block announce %} For updates follow
+<strong>@Mukhopadhyay</strong> on
+<a rel="me" href="https://github.com/Mukhopadhyay">
+  <span class="twemoji github">
+    {% include ".icons/fontawesome/brands/github.svg" %}
+  </span>
+  <strong>Github</strong>
+</a>
+and
+<a href="https://twitter.com/allthingstensor">
+  <span class="twemoji twitter">
+    {% include ".icons/fontawesome/brands/twitter.svg" %}
+  </span>
+  <strong>Twitter</strong>
+</a>
+{% endblock %} {% block scripts %} {{ super() }}
+<script src="{{ 'assets/javascripts/custom.a678ee80.min.js' | url }}"></script>
+{% endblock %}
