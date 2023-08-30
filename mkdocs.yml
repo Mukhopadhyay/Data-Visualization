@@ -3,6 +3,7 @@ site_name: Data Visualization
 nav:
   - Home: index.md
   - Contributing: CONTRIBUTING.md
+  - Heatmaps (IPyMarkdown): temp.md
 
 markdown_extensions:
   - pymdownx.superfences
